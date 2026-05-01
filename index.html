@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Max's Graduation Party</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- Confetti canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Top accent line -->
+    <div class="top-bar"></div>
+
+    <div class="card">
+
+      <div class="diploma-border">
+
+        <div class="header-section">
+          <p class="pre-title">You are invited to celebrate</p>
+          <h1 class="name">Maximiliano<br><span class="last">De La Torre</span></h1>
+          <div class="divider">
+            <span class="cap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28" style="color:var(--gold);display:block;">
+                <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+                <path d="M2 8v6M22 8v6"/>
+                <path d="M7 10.5v5a5 5 0 0 0 10 0v-5"/>
+              </svg>
+            </span>
+          </div>
+          <h2 class="grad-title">Class of 2026</h2>
+          <p class="degree">Bachelor of Science<br>Computer Science</p>
+          <p class="school">California State University, Fullerton</p>
+        </div>
+
+        <div class="photo-wrap">
+          <img src="photo/photo.png" alt="Graduation Photo" class="grad-photo" />
+          <div class="photo-shine"></div>
+        </div>
+
+        <div class="details-section">
+          <div class="detail-row">
+            <div class="detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24">
+                  <rect x="3" y="4" width="18" height="18" rx="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </div>
+              <div class="detail-text">
+                <span class="label">Date</span>
+                <span class="value">Friday, May 23rd</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24">
+                  <circle cx="12" cy="12" r="9"/>
+                  <polyline points="12 7 12 12 15 15"/>
+                </svg>
+              </div>
+              <div class="detail-text">
+                <span class="label">Time</span>
+                <span class="value">5:00 PM</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                  <circle cx="12" cy="9" r="2.5"/>
+                </svg>
+              </div>
+              <div class="detail-text">
+                <span class="label">Location</span>
+                <span class="value">7315 Gingersnap Dr<br>Corona, CA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rsvp-section">
+          <a href="#" class="rsvp-btn" id="rsvp-link" target="_blank" rel="noopener">
+            Please RSVP
+          </a>
+          <p class="rsvp-note">Let us know you're coming!</p>
+        </div>
+
+      </div><!-- diploma-border -->
+
+    </div><!-- card -->
+
+    <div class="bottom-bar"></div>
+
+  </div><!-- page -->
+
+  <script src="script.js"></script>
+</body>
+</html>
