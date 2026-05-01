@@ -1,6 +1,6 @@
 // ── RSVP LINK ──────────────────────────────────────────────
 // Paste your Google Form/Poll URL below between the quotes
-const RSVP_URL = 'YOUR_GOOGLE_FORM_LINK_HERE';
+const RSVP_URL = 'https://forms.gle/ZFypZ9J22qVrS29C6';
 
 document.getElementById('rsvp-link').href = RSVP_URL;
 
